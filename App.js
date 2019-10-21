@@ -59,8 +59,6 @@ export default class App extends Component {
   componentDidMount(){
    unmountClock = false;
    var a = moment("2019-06-03 02:25:37", "YYYY-MM-DD HH:mm:ss").subtract(90, 'days').format('YYYY-MM-DD HH:mm:ss');
-   console.log(a);
-   console.log('dsads');
   }
 
 
